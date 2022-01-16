@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import '../intro/intro.css'
-import {ArrowDownwardIcon} from '@material-ui/icons'
 import { init } from 'ityped'
 
 export default function Intro() {

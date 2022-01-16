@@ -1,6 +1,6 @@
 import React from 'react'
 import './topbar.css'
-import {PhoneIphone, Mail} from '@material-ui/icons'
+
 
 
 export default function TopBar({menuOpen, setMenuOpen}) {
@@ -10,11 +10,11 @@ export default function TopBar({menuOpen, setMenuOpen}) {
                 <div className='left'>
                     <a href='#intro' className='logo'>AXELBRIGO.COM</a>
                     <div className="itemContainer">
-                        <PhoneIphone className="icon" />
+                    <i className="fas fa-phone-square icon"></i>
                         <span>+34 604 12 07 23</span>
                     </div>
                     <div className="itemContainer">
-                        <Mail className="icon" />
+                    <i class="fas fa-envelope icon"></i>
                         <span>developer@axelbrigo.com</span>
                     </div>
                 </div>

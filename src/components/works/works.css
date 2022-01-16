@@ -1,0 +1,257 @@
+.works {
+    background-color: #38307A;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.works h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.main__works {
+display: flex;
+height: 100%;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+}
+
+.father__card--image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+}
+
+.card-image img {
+    width:100%;
+    height:100%;
+    border-bottom-left-radius:20px;
+    border-top-right-radius:20px;
+    box-shadow:0 2px 3px rgba(0,0,0,0.5);
+    padding: 16px;
+  }
+
+  .card {
+    padding: 1rem;
+    width: 300px;
+    height: 440px;
+    background: linear-gradient(
+        180.2deg,
+        #5193f6 -8.53%,
+        rgba(249, 71, 232, 0.57) 109.43%
+      );;
+    border-radius:20px;
+    box-shadow:4px 7px 19px rgba(168, 44, 210, 0.56);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .card .card-title{
+    font-size:1.8rem;
+    font-weight:bold;
+    margin-top:0.5rem;
+  }
+
+  .card .card-subtitle{
+    color:hsla(0, 0%, 83%, 1);
+    font-size:0.9rem;
+    margin-bottom:5px;
+  }
+
+  .card .social-links a{
+    color:white;
+    text-decoration: none;
+    padding:0.5rem;
+  }
+
+  .card .social-links #icon{
+    width:1.2rem;
+    transition:transform 0.3s ease-in-out;
+  }
+  .social-links #icon:hover{
+    transform:translatey(-5px);
+  }
+
+  .card .learn-btn button{
+    background:hsla(0, 0%, 2%, 1);;
+    padding:0.7rem 2.5rem;
+    font-size:15px;
+    color: hsla(0, 0%, 100%, 1);
+    border-radius:8px;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-top:0.2rem;
+  }
+
+  .card .learn-btn button a{
+   color: white;
+   text-decoration: none;
+  }
+
+
+  @media (max-width:1024px) {
+      .card {
+        padding: 1rem;
+        width: 200px;
+        height: 350px;
+        background: linear-gradient(
+            180.2deg,
+            #5193f6 -8.53%,
+            rgba(249, 71, 232, 0.57) 109.43%
+          );;
+        border-radius:20px;
+        box-shadow:4px 7px 19px rgba(168, 44, 210, 0.56);
+      }
+
+      .father__card--image {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding-top: 10px;
+      }
+
+      .father__card--image img {
+        width: 180px;
+        height: 180px;
+      }
+
+      .card .learn-btn button{
+        background:hsla(0, 0%, 2%, 1);;
+        padding:0.7rem 2.5rem;
+        font-size:10px;
+        color: hsla(0, 0%, 100%, 1);
+        border-radius:8px;
+        border:none;
+        cursor:pointer;
+        font-weight:600;
+        letter-spacing:1px;
+        margin-top:0.2rem;
+      }
+
+      
+  .card .card-title{
+    font-size:1.2rem;
+    font-weight:bold;
+    margin-top:0.5rem;
+  }
+  }
+
+
+  @media (max-width:608px) {
+    .card {
+      padding: 1rem;
+      width: 150px;
+      height: 250px;
+      background: linear-gradient(
+          180.2deg,
+          #5193f6 -8.53%,
+          rgba(249, 71, 232, 0.57) 109.43%
+        );;
+      border-radius:20px;
+      box-shadow:4px 7px 19px rgba(168, 44, 210, 0.56);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .main__works {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      }
+
+     /* .card {
+        display: flex;
+        width: 280px;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+      }*/
+
+      .works__left .card {
+        display: flex;
+        width: 280px;
+        height: 150px;
+        justify-content: space-between;
+      }
+
+      .works__center .card {
+        display: flex;
+        width: 280px;
+        height: 150px;
+        justify-content: space-between;
+      }
+
+      .works__right .card {
+        display: flex;
+        width: 280px;
+        height: 150px;
+        justify-content: space-between;
+      }
+
+      .div__works--info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100px;
+      }
+
+      .card-image {
+        width: 120px;
+        height: 120px;
+      }
+
+  
+      .card .card-title{
+        font-size:1rem;
+        margin-left: 5px;
+        font-weight:bold;
+        margin-top:0.5rem;
+      }
+
+      .card .learn-btn button{
+        background:hsla(0, 0%, 2%, 1);
+        font-size:10px;
+        color: hsla(0, 0%, 100%, 1);
+        border-radius:8px;
+        border:none;
+        cursor:pointer;
+        font-weight:600;
+        letter-spacing:1px;
+        width: 70px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+   
+.father__card--image {
+  display: flex;
+  width: 150px;
+  height: 100px;
+} 
+
+.father__card--image img {
+  width: 120px;
+  height: 120px;
+}
+
+      .social-links {
+        display: none;
+      }
+   }

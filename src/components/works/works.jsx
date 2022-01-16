@@ -1,6 +1,6 @@
 import React from 'react'
 import '../works/works.css'
-import { GitHub } from '@material-ui/icons'
+
 
 
 
@@ -29,7 +29,7 @@ export default function Works() {
                         </div>
                         <div className="social-links">
                             <a href="https://github.com/axelbrigo/spaceApp" target="_blank">
-                                <GitHub id="icon" />
+                            <i class="fab fa-github icon"></i>
                             </a>
                         </div>
                         <div className="learn-btn">
@@ -58,7 +58,7 @@ export default function Works() {
                         </div>
                         <div className="social-links">
                             <a href="https://github.com/axelbrigo/rickymorty" target="_blank">
-                                <GitHub id="icon" />
+                            <i class="fab fa-github icon"></i>
                             </a>
                         </div>
                         <div className="learn-btn">
@@ -87,7 +87,7 @@ export default function Works() {
                         </div>
                         <div className="social-links">
                             <a href="https://github.com/axelbrigo/restaurantRetro" target="_blank">
-                                <GitHub id="icon" />
+                            <i class="fab fa-github icon"></i>
                             </a>
                         </div>
                         <div className="learn-btn">

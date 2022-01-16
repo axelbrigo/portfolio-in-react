@@ -72,11 +72,11 @@ text-align: center;
     padding:0.5rem;
   }
 
-  .card .social-links #icon{
+  .card .social-links .icon{
     width:1.2rem;
     transition:transform 0.3s ease-in-out;
   }
-  .social-links #icon:hover{
+  .social-links .icon:hover{
     transform:translatey(-5px);
   }
 

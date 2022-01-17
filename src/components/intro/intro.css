@@ -103,5 +103,11 @@ color: white;
      text-align: center;
     }
 
-
+    .right a {
+        position: absolute;
+        bottom: 10px;
+        left: 40%;
+    }
 }
+
+

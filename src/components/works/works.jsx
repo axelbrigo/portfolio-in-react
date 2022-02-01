@@ -21,23 +21,23 @@ export default function Works() {
                         </div>
 
                         <div className='div__works--info'>
-                        <div className="card-title">
-                            <p>Space X</p>
-                        </div>
-                        <div className="card-subtitle">
-                            <p>ReactJs</p>
-                        </div>
-                        <div className="social-links">
-                            <a href="https://github.com/axelbrigo/spaceApp" target="_blank">
-                            <i class="fab fa-github icon"></i>
-                            </a>
-                        </div>
-                        <div className="learn-btn">
-                            <button className='button__works' type="button"><a href="https://space-app-six.vercel.app/" target="_blank"> Check it out</a></button>
-                        </div>
+                            <div className="card-title">
+                                <p>Space X</p>
+                            </div>
+                            <div className="card-subtitle">
+                                <p>ReactJs</p>
+                            </div>
+                            <div className="social-links">
+                                <a href="https://github.com/axelbrigo/spaceApp" target="_blank">
+                                    <i class="fab fa-github icon"></i>
+                                </a>
+                            </div>
+                            <div className="learn-btn">
+                                <button className='button__works' type="button"><a href="https://space-app-six.vercel.app/" target="_blank"> Check it out</a></button>
+                            </div>
 
                         </div>
-                     
+
                     </div>
                 </div>
 
@@ -45,28 +45,28 @@ export default function Works() {
                     <div className="card">
                         <div className='father__card--image'>
                             <div className="card-image">
-                                <img src="assets/rickymorty.png" alt="" />
+                                <img src="assets/flags.png" alt="" />
                             </div>
                         </div>
 
-                    <div className='div__works--info'>
-                    <div className="card-title">
-                            <p>API - THEMING</p>
+                        <div className='div__works--info'>
+                            <div className="card-title">
+                                <p>API - THEMING</p>
+                            </div>
+                            <div className="card-subtitle">
+                                <p>ReactJs</p>
+                            </div>
+                            <div className="social-links">
+                                <a href="https://github.com/axelbrigo/flags-project" target="_blank">
+                                    <i class="fab fa-github icon"></i>
+                                </a>
+                            </div>
+                            <div className="learn-btn">
+                                <button className='button__works' type="button"><a href="https://flags-project.vercel.app/" target="_blank"> Check it out</a></button>
+                            </div>
                         </div>
-                        <div className="card-subtitle">
-                            <p>JavaScript</p>
-                        </div>
-                        <div className="social-links">
-                            <a href="https://github.com/axelbrigo/rickymorty" target="_blank">
-                            <i class="fab fa-github icon"></i>
-                            </a>
-                        </div>
-                        <div className="learn-btn">
-                            <button className='button__works' type="button"><a href="https://rickymorty-nu.vercel.app/" target="_blank"> Check it out</a></button>
-                        </div>
-                    </div>
 
-                        
+
                     </div>
                 </div>
 
@@ -79,22 +79,22 @@ export default function Works() {
                         </div>
 
                         <div className='div__works--info'>
-                        <div className="card-title">
-                            <p>Restaurant Retro</p>
+                            <div className="card-title">
+                                <p>Restaurant Retro</p>
+                            </div>
+                            <div className="card-subtitle">
+                                <p>ReactJs</p>
+                            </div>
+                            <div className="social-links">
+                                <a href="https://github.com/axelbrigo/restaurantRetro" target="_blank">
+                                    <i class="fab fa-github icon"></i>
+                                </a>
+                            </div>
+                            <div className="learn-btn">
+                                <button className='button__works' type="button"><a href="https://restaurant-retro.vercel.app/" target="_blank"> Check it out</a></button>
+                            </div>
                         </div>
-                        <div className="card-subtitle">
-                            <p>ReactJs</p>
-                        </div>
-                        <div className="social-links">
-                            <a href="https://github.com/axelbrigo/restaurantRetro" target="_blank">
-                            <i class="fab fa-github icon"></i>
-                            </a>
-                        </div>
-                        <div className="learn-btn">
-                            <button className='button__works' type="button"><a href="https://restaurant-retro.vercel.app/" target="_blank"> Check it out</a></button>
-                        </div>
-                        </div>
-                        
+
                     </div>
                 </div>
             </div>

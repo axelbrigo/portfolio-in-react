@@ -7,8 +7,8 @@ import '../works/works.css'
 export default function Works() {
     return (
         <div className='works' id='works'>
-            <div>
-                <h1>PROJECTS</h1>
+            <div className='div__projects'>
+                <h1 className='projects'>PROJECTS</h1>
             </div>
 
             <div className='main__works'>
@@ -22,7 +22,9 @@ export default function Works() {
 
                         <div className='div__works--info'>
                             <div className="card-title">
-                                <p>Space X</p>
+                                <p>SPACE </p>
+                                <p>X</p>
+
                             </div>
                             <div className="card-subtitle">
                                 <p>ReactJs</p>
@@ -70,6 +72,35 @@ export default function Works() {
                     </div>
                 </div>
 
+                <div className='works__center'>
+                    <div className="card">
+                        <div className='father__card--image'>
+                            <div className="card-image">
+                                <img src="assets/tetris.png" alt="" />
+                            </div>
+                        </div>
+
+                        <div className='div__works--info'>
+                            <div className="card-title">
+                                <p>TETRIS GAME</p>
+                            </div>
+                            <div className="card-subtitle">
+                                <p>HTML | CSS | JavaScript Vanilla</p>
+                            </div>
+                            <div className="social-links">
+                                <a href="https://github.com/axelbrigo/Tetris-project" target="_blank">
+                                    <i class="fab fa-github icon"></i>
+                                </a>
+                            </div>
+                            <div className="learn-btn">
+                                <button className='button__works' type="button"><a href="https://tetris-project-chywbf458-axelbrigo.vercel.app/" target="_blank"> Check it out</a></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
                 <div className='works__right'>
                     <div className="card">
                         <div className='father__card--image'>
@@ -80,7 +111,7 @@ export default function Works() {
 
                         <div className='div__works--info'>
                             <div className="card-title">
-                                <p>Restaurant Retro</p>
+                                <p>RESTAURANT NORWAY</p>
                             </div>
                             <div className="card-subtitle">
                                 <p>ReactJs</p>

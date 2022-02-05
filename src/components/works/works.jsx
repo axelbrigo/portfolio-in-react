@@ -22,8 +22,8 @@ export default function Works() {
 
                         <div className='div__works--info'>
                             <div className="card-title">
-                                <p>SPACE </p>
-                                <p>X</p>
+                                <p>SPACE X</p>
+
 
                             </div>
                             <div className="card-subtitle">
@@ -35,7 +35,7 @@ export default function Works() {
                                 </a>
                             </div>
                             <div className="learn-btn">
-                                <button className='button__works' type="button"><a href="https://space-app-six.vercel.app/" target="_blank"> Check it out</a></button>
+                                <a className='button__works' type="button" href="https://space-app-six.vercel.app/" target="_blank"> Check it</a>
                             </div>
 
                         </div>
@@ -64,7 +64,7 @@ export default function Works() {
                                 </a>
                             </div>
                             <div className="learn-btn">
-                                <button className='button__works' type="button"><a href="https://flags-project.vercel.app/" target="_blank"> Check it out</a></button>
+                                <a className='button__works' type="button" href="https://flags-project.vercel.app/" target="_blank">Check it</a>
                             </div>
                         </div>
 
@@ -85,7 +85,7 @@ export default function Works() {
                                 <p>TETRIS GAME</p>
                             </div>
                             <div className="card-subtitle">
-                                <p>HTML | CSS | JavaScript Vanilla</p>
+                                <p>JavaScript Vanilla</p>
                             </div>
                             <div className="social-links">
                                 <a href="https://github.com/axelbrigo/Tetris-project" target="_blank">
@@ -93,11 +93,36 @@ export default function Works() {
                                 </a>
                             </div>
                             <div className="learn-btn">
-                                <button className='button__works' type="button"><a href="https://tetris-project-chywbf458-axelbrigo.vercel.app/" target="_blank"> Check it out</a></button>
+                                <a className='button__works' type="button" href="https://tetris-project-chywbf458-axelbrigo.vercel.app/" target="_blank">Check it</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='works__center'>
+                    <div className="card">
+                        <div className='father__card--image'>
+                            <div className="card-image">
+                                <img src="assets/ecomerce.png" alt="" />
                             </div>
                         </div>
 
-
+                        <div className='div__works--info'>
+                            <div className="card-title">
+                                <p>E-commerce</p>
+                            </div>
+                            <div className="card-subtitle">
+                                <p>ReactJs | Library</p>
+                            </div>
+                            <div className="social-links">
+                                <a href="https://github.com/axelbrigo/ecomerce" target="_blank">
+                                    <i class="fab fa-github icon"></i>
+                                </a>
+                            </div>
+                            <div className="learn-btn">
+                                <a className='button__works' type="button" href="https://ecomerce-kbah9lv07-axelbrigo.vercel.app/" target="_blank"> Check it</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -111,7 +136,7 @@ export default function Works() {
 
                         <div className='div__works--info'>
                             <div className="card-title">
-                                <p>RESTAURANT NORWAY</p>
+                                <p>RESTAURANT</p>
                             </div>
                             <div className="card-subtitle">
                                 <p>ReactJs</p>
@@ -122,14 +147,14 @@ export default function Works() {
                                 </a>
                             </div>
                             <div className="learn-btn">
-                                <button className='button__works' type="button"><a href="https://restaurant-retro.vercel.app/" target="_blank"> Check it out</a></button>
+                                <a className='button__works' type="button" href="https://restaurant-retro.vercel.app/" target="_blank">Check it</a>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 }

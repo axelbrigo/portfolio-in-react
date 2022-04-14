@@ -14,7 +14,11 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
                         <span>+45 31886168</span>
                     </div>
                     <div className="itemContainer">
+<<<<<<< HEAD
                         <i class="fas fa-envelope icon"></i>
+=======
+                    <i class="fas fa-envelope icon"></i>
+>>>>>>> 99e24b84cf6de921fb1197ee7db2b4a15433043c
                         <span>theaxelbrigo@gmail.com</span>
                     </div>
                 </div>

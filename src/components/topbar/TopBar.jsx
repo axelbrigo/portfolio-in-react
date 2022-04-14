@@ -15,7 +15,7 @@ export default function TopBar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                     <i class="fas fa-envelope icon"></i>
-                        <span>developer@axelbrigo.com</span>
+                        <span>theaxelbrigo@gmail.com</span>
                     </div>
                 </div>
                 <div className='righ'>

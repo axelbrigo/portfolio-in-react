@@ -15,10 +15,10 @@ export default function Technologies() {
                 <div className='skill'><img src="assets/materialui.png" alt="" /></div>
             </div>
             <div className="footer">
-                <div className='footer__contact'>Email: developer@axelbrigo.com</div>
-                <div className='footer__contact'>Phone: +34 604 12 07 23</div>
+                <div className='footer__contact'>Email: theaxelbrigo@gmail.com</div>
+                <div className='footer__contact'>Phone: +45 31 88 61 68</div>
             </div>
-            
+
         </div>
     )
 }
